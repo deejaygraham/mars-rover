@@ -1,5 +1,5 @@
 require 'sinatra'
-require './rover'
+require './Rover'
 
 rover = Rover.new(1, 9, :N)
 
