@@ -1,10 +1,12 @@
 require 'sinatra'
 require './Rover'
+require './Plateau'
 
-rover = Rover.new(1, 9, :N)
+
+plateau = Plateau.new(2, 4)
 
 get '/' do
 
-    "Move Over, Rover " + rover.position.to_s
-
+  plateau.to_s
+  
 end

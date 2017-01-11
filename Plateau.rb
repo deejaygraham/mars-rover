@@ -13,4 +13,20 @@ class Plateau
     y >= 0 and y <= @size.height
   end
 
+  def to_s
+
+    grid = "\n"
+
+    @size.width.times do
+      @size.height.times do
+        grid << "."
+      end
+
+      grid << "\n"
+    end
+
+    grid
+
+  end
+
 end
