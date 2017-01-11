@@ -5,6 +5,6 @@ rover = Rover.new(1, 9, :N)
 
 get '/' do
 
-    "Move Over, Rover " + .position.to_s
+    "Move Over, Rover " + rover.position.to_s
 
 end
