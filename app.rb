@@ -7,6 +7,6 @@ plateau = Plateau.new(100, 100)
 
 get '/' do
 
-  plateau.to_s
-
+  erb :index
+  
 end
