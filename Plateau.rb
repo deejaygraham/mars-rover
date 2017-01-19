@@ -17,8 +17,8 @@ class Plateau
 
     grid = "\n"
 
-    @size.width.times do
-      @size.height.times do
+    @size.height.times do
+      @size.width.times do
         grid << "."
       end
 
